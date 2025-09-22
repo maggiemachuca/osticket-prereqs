@@ -434,9 +434,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Click continue 
 <img width="1429" height="842" alt="Screenshot 2025-09-21 at 10 06 30 PM" src="https://github.com/user-attachments/assets/4a3c74d8-9e79-472e-b417-b70afa99fe0a" />
 
+- Enter all of your details in this box (screenshot below)
 
+<img width="1434" height="850" alt="Screenshot 2025-09-21 at 10 28 00 PM" src="https://github.com/user-attachments/assets/b603d91a-7d8a-4c48-a96a-4a841528016e" />
 
+- Make sure you type **osTicket** in MySQL Database
+- Write the same credentials you used for MySQL
+- Click **Install Now**
 
+<img width="514" height="367" alt="Screenshot 2025-09-21 at 10 29 46 PM" src="https://github.com/user-attachments/assets/282c2c05-2ddc-484d-a847-bc3936b97ffa" />
+
+- If installation was successful, you should see this page now (screenshot below)
+
+<img width="1421" height="841" alt="Screenshot 2025-09-21 at 10 32 49 PM" src="https://github.com/user-attachments/assets/2855b4b9-eb61-468c-b733-05ac5e997123" />
+
+## Step 18: Going to the login page for osTicket (as an Admin)
+
+- Navigate to your browser search bar
+- Copy and paste **http://localhost/osTicket/scp/login.php**
+- Hit enter
+- You should see a page that looks like this (screenshot below)
+- Login with your credentials
+
+<img width="1430" height="847" alt="Screenshot 2025-09-21 at 10 36 03 PM" src="https://github.com/user-attachments/assets/23a66d69-350d-4981-9514-2c7c7d17f938" />
+
+- Upon successful login you should see a webpage like this. You have successfully created your help desk ticketing system!
+
+<img width="1437" height="764" alt="Screenshot 2025-09-21 at 10 37 53 PM" src="https://github.com/user-attachments/assets/f5d1507a-414a-4e84-8687-b199c88a3de2" />
+
+## Step 19: Going to the login page for osTicket (as a User)
+
+- Navigate to your browser search bar
+- Copy and paste **http://localhost/osTicket/**
+- Hit enter
+- You should see a page that looks like this (screenshot below)
+
+<img width="1431" height="800" alt="Screenshot 2025-09-21 at 10 39 42 PM" src="https://github.com/user-attachments/assets/ab8ba499-40d0-46ad-be38-e72ebd63dee4" />
+
+- Congratulations! You've successfully managed to install a ticketing system on your VM.
 
 
 ---------------
