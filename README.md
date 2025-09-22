@@ -1,4 +1,4 @@
-<p align="center">
+<img width="761" height="516" alt="Screenshot 2025-09-21 at 10 00 59 PM" src="https://github.com/user-attachments/assets/be9bcfa6-0359-49b5-8384-3e86886200d8" /><p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -334,7 +334,105 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="1068" height="477" alt="Screenshot 2025-09-21 at 9 47 02 PM" src="https://github.com/user-attachments/assets/851414f3-6e0f-4c5e-af47-8fda4f9ef95c" />
 
+- Refresh your osTicket browser
+- You should see more green check marks, these are the extensions we just enabled!
+- The last 2 red x's are okay, these are for performance but not necessary
 
+<img width="1439" height="854" alt="Screenshot 2025-09-21 at 9 50 59 PM" src="https://github.com/user-attachments/assets/6d1c4856-9ca8-4cc2-846d-139526e1331d" />
+
+
+## Step 15: Rename ost-config.php
+
+- Go back to your file explorer and type in **C:\inetpub\wwwroot\osTicket\include** and hit enter
+- In this folder, look for the file named **ost-sampleconfig.php**
+- Rename this file to **ost-config.php**
+- If successful it should look like this (screenshot below)
+
+<img width="825" height="485" alt="Screenshot 2025-09-21 at 9 56 56 PM" src="https://github.com/user-attachments/assets/48e59f26-56a5-4f6a-a30d-6fb5e5c6d265" />
+
+- Now right-click this file and click **Properties**
+- Click the **Security** tab
+- Click advanced
+ 
+<img width="359" height="504" alt="Screenshot 2025-09-21 at 9 57 42 PM" src="https://github.com/user-attachments/assets/f33b62a4-0583-4dc4-b77c-afe6ff7780eb" />
+
+- Click **Disable inheritance** (this removes all current permissions it has)
+
+<img width="761" height="512" alt="Screenshot 2025-09-21 at 9 58 51 PM" src="https://github.com/user-attachments/assets/129a5d1f-8514-4539-a971-e2cec4ce7451" />
+
+- This window should pop up
+- Click **Remove all inherited permissions from this object** (screenshot below)
+
+<img width="520" height="272" alt="Screenshot 2025-09-21 at 9 59 45 PM" src="https://github.com/user-attachments/assets/4e772e55-361a-4f3d-81a9-fcb0224aec80" />
+
+- Then we are going to click **Add**
+- Click **Select a principal**
+
+<img width="761" height="516" alt="Screenshot 2025-09-21 at 10 00 59 PM" src="https://github.com/user-attachments/assets/48a7b962-7daf-476e-83e3-f3eef4b24800" />
+
+- In the textbox below type **everyone**
+- Click **Check names**
+- Click OK
+
+<img width="456" height="247" alt="Screenshot 2025-09-21 at 10 02 27 PM" src="https://github.com/user-attachments/assets/11891614-bac1-4937-8fbb-7bef27a723fe" />
+
+- Click **Full control**
+- Click OK
+
+<img width="909" height="587" alt="Screenshot 2025-09-21 at 10 04 10 PM" src="https://github.com/user-attachments/assets/b865fcdc-d519-4dca-8491-246242959b44" />
+
+- The end result should look like this (screenshot below)
+- Click **Apply**
+- Click OK
+
+<img width="765" height="516" alt="image" src="https://github.com/user-attachments/assets/c758123e-fece-4eed-ad04-4a47739bb221" />
+
+## Step 16: 
+- Navigate back to the **osTicket-Installation-Files** folder
+- Double-click **HeidiSQL_12.3.0.6589_Setup**
+- Go through the installation wizard
+  
+<img width="825" height="517" alt="Screenshot 2025-09-21 at 10 14 22 PM" src="https://github.com/user-attachments/assets/265e36aa-0e8d-46a7-8786-b543c772af58" />
+
+- If successful, this should be the page you see (screenshot below)
+- Before clicking finish, **make sure Launch HeidiSQL is checkmarked**
+- Click **Skip**
+
+<img width="589" height="454" alt="Screenshot 2025-09-21 at 10 15 57 PM" src="https://github.com/user-attachments/assets/90be633e-c0dd-4eb8-9b2f-7323b5595378" />
+
+- This should be the next window you are met with (screenshot below)
+- Click **New**
+
+<img width="680" height="476" alt="Screenshot 2025-09-21 at 10 18 37 PM" src="https://github.com/user-attachments/assets/032d8be6-58d0-4c8a-9ad6-4da2dcfd4739" />
+
+- **Remember your credentials** you saved for **MySQL Server**?
+- This is where they come into place
+- Type them here (screenshot below)
+- Click Open
+
+<img width="681" height="474" alt="Screenshot 2025-09-21 at 10 19 41 PM" src="https://github.com/user-attachments/assets/2ba6c46a-18e0-4894-9a3a-2e5096119f10" />
+
+- Right-click **Unnamed**
+- Click **Create new**
+- Click **Database**
+
+<img width="931" height="587" alt="Screenshot 2025-09-21 at 10 22 05 PM" src="https://github.com/user-attachments/assets/a01197f8-ef05-471e-a1f1-91dce74990be" />
+
+- You should now be met with this window (screenshot below)
+- Type in **osTicket** exactly in the box
+- Click OK
+
+<img width="313" height="251" alt="Screenshot 2025-09-21 at 10 24 25 PM" src="https://github.com/user-attachments/assets/0b5871d1-7da3-4152-818a-b9ec5c7a3280" />
+
+- If successful you should see this on the left of the HeidiSQL window (screenshot below)
+
+<img width="931" height="588" alt="Screenshot 2025-09-21 at 10 25 42 PM" src="https://github.com/user-attachments/assets/0b128317-8c57-460b-9173-52283a4b5c82" />
+
+
+## Step 17: Continue setting up osTicket on browser
+- Go back to your osTicket website
+- Click continue 
+<img width="1429" height="842" alt="Screenshot 2025-09-21 at 10 06 30 PM" src="https://github.com/user-attachments/assets/4a3c74d8-9e79-472e-b417-b70afa99fe0a" />
 
 
 
