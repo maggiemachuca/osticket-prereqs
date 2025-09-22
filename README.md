@@ -386,7 +386,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="765" height="516" alt="image" src="https://github.com/user-attachments/assets/c758123e-fece-4eed-ad04-4a47739bb221" />
 
-## Step 16: 
+## Step 16: Installing HeidiSQL
 - Navigate back to the **osTicket-Installation-Files** folder
 - Double-click **HeidiSQL_12.3.0.6589_Setup**
 - Go through the installation wizard
