@@ -74,7 +74,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="164" height="218" alt="Screenshot 2025-09-21 at 7 18 37 PM" src="https://github.com/user-attachments/assets/f52461ab-7ccf-40d3-88d1-652b6f141e17" />
 
-## Step 4:
+## Step 4: Enabling CGI in Windows Features
 
 - Navigate to the Windows search bar and type in **Turn Windows Features on or off**
 - This is what this window should look like
