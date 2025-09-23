@@ -471,7 +471,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1431" height="800" alt="Screenshot 2025-09-21 at 10 39 42 PM" src="https://github.com/user-attachments/assets/ab8ba499-40d0-46ad-be38-e72ebd63dee4" />
 
 - Congratulations! You've successfully managed to install a ticketing system on your VM.
-
+- Click <a href="https://github.com/maggiemachuca/osticket-post-install-config">here</a> to view the next section where we will configure various items to be able to use the ticketing system.
 
 ---------------
 
