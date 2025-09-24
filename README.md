@@ -9,7 +9,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - WindowsApp (macOS) *optional*
-- Internet Information Services (IIS) (include something about the important of IIS, it will be serving as a web server for osTicket)
+- Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
